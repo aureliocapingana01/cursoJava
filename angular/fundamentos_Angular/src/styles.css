@@ -1,3 +1,7 @@
+.data {
+    display: none;
+}
+
 button {
     padding: 10px 25px;
     background-color: #852454;
@@ -8,10 +12,34 @@ button {
     color: #fff;
     transition: filter .3s ease-in-out;
     margin: 20px 0;
+    transform: .3s;
 }
 
 button:hover {
     background-color: #d33a86;
     color: #000;
     cursor: pointer;
+}
+
+.lista-produtos {
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+}
+.lista-produtos > li{
+    list-style: none;
+    margin-bottom: 50px;
+    /* border-bottom: 1px solid black; */
+}
+.lista-produtos > li > strong {
+    list-style: none;
+    font-size: 20px;
+}
+.lista-produtos > li > p {
+    color: #852454;
+}
+.lista-produtos > li > span {
+    background-color: #852454;
+    color: #fff;
+    padding: 5px;
 }

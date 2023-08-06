@@ -7,6 +7,8 @@ import { primeiroComponenteComponent } from './primeiro-componente/primeiro-comp
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
 import { MultipicarPorPipe } from './multipicar-por.pipe';
 import { PiperCosyumizadoComponent } from './piper-cosyumizado/piper-cosyumizado.component';
+import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PiperCosyumizadoComponent } from './piper-cosyumizado/piper-cosyumizado
     primeiroComponenteComponent,
     SegundoComponenteComponent,
     MultipicarPorPipe,
-    PiperCosyumizadoComponent
+    PiperCosyumizadoComponent,
+    RenderizandoListasComponent,
+    ComponentePersonalizadoComponent
   ],
   imports: [
     BrowserModule,

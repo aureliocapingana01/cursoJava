@@ -3,7 +3,7 @@
 <!-- interpolação de textos -->
 <img [src]="urlImg" alt="" width="300" >
 <p>Nome: {{nome | uppercase}} </p>
-<p>Data de Nascimento: {{dataNascimento | date: "dd/MM/yyyy"}} </p>
+<p class="data">Data de Nascimento: {{dataNascimento | date: "dd/MM/yyyy"}} </p>
 
 <button (click)="mostarDataNascimento()" type="button">Mostrar data de Nascimento</button>
 

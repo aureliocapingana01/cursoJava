@@ -1,0 +1,11 @@
+<!-- Aprendendo uma redenrização de lisata ou dados  -->
+
+<h2>renderizando uma lista de dados - Celulares</h2>
+
+<ul class="lista-produtos">
+    <li *ngFor="let celular of celulares">
+       <strong> {{celular.name}} </strong> 
+       <p> {{celular.description}} </p>
+       <span> {{celular.soldOff ? 'esgotado' : 'dispinivel'}} </span>
+    </li>
+</ul>
